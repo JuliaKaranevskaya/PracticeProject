@@ -16,6 +16,12 @@
 		C15664E1264D83A0005BAC93 /* FifthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15664E0264D83A0005BAC93 /* FifthViewController.swift */; };
 		C15664E42650EC28005BAC93 /* SixthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15664E32650EC28005BAC93 /* SixthViewController.swift */; };
 		C15664E62650F0EE005BAC93 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15664E52650F0EE005BAC93 /* ListViewController.swift */; };
+		C191F61B265A288300835D15 /* Workout.swift in Sources */ = {isa = PBXBuildFile; fileRef = C191F61A265A288300835D15 /* Workout.swift */; };
+		C191F61D265A29F300835D15 /* Lunges.swift in Sources */ = {isa = PBXBuildFile; fileRef = C191F61C265A29F300835D15 /* Lunges.swift */; };
+		C191F61F265A2AA500835D15 /* Pushups.swift in Sources */ = {isa = PBXBuildFile; fileRef = C191F61E265A2AA500835D15 /* Pushups.swift */; };
+		C191F621265A2B2600835D15 /* AbsCrunches.swift in Sources */ = {isa = PBXBuildFile; fileRef = C191F620265A2B2600835D15 /* AbsCrunches.swift */; };
+		C191F624265A2BD200835D15 /* ExercisesFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = C191F623265A2BD200835D15 /* ExercisesFactory.swift */; };
+		C191F626265A317900835D15 /* FactoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C191F625265A317900835D15 /* FactoryViewController.swift */; };
 		C1A97820264AD59600DE3A7A /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A9781F264AD59600DE3A7A /* SecondViewController.swift */; };
 		C1A97822264AD95800DE3A7A /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A97821264AD95800DE3A7A /* ThirdViewController.swift */; };
 		C1A97824264B23D000DE3A7A /* FourthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A97823264B23D000DE3A7A /* FourthViewController.swift */; };
@@ -33,6 +39,12 @@
 		C15664E0264D83A0005BAC93 /* FifthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FifthViewController.swift; sourceTree = "<group>"; };
 		C15664E32650EC28005BAC93 /* SixthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SixthViewController.swift; sourceTree = "<group>"; };
 		C15664E52650F0EE005BAC93 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		C191F61A265A288300835D15 /* Workout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Workout.swift; sourceTree = "<group>"; };
+		C191F61C265A29F300835D15 /* Lunges.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lunges.swift; sourceTree = "<group>"; };
+		C191F61E265A2AA500835D15 /* Pushups.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pushups.swift; sourceTree = "<group>"; };
+		C191F620265A2B2600835D15 /* AbsCrunches.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbsCrunches.swift; sourceTree = "<group>"; };
+		C191F623265A2BD200835D15 /* ExercisesFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExercisesFactory.swift; sourceTree = "<group>"; };
+		C191F625265A317900835D15 /* FactoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactoryViewController.swift; sourceTree = "<group>"; };
 		C1A9781F264AD59600DE3A7A /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		C1A97821264AD95800DE3A7A /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 		C1A97823264B23D000DE3A7A /* FourthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthViewController.swift; sourceTree = "<group>"; };
@@ -71,6 +83,7 @@
 				C1427C112649AE6C00C49C8D /* AppDelegate.swift */,
 				C1427C132649AE6C00C49C8D /* SceneDelegate.swift */,
 				C15664E2264D8612005BAC93 /* Controllers */,
+				C191F619265A286600835D15 /* FactoryPattern */,
 				C1427C172649AE6C00C49C8D /* Main.storyboard */,
 				C1427C1A2649AE6F00C49C8D /* Assets.xcassets */,
 				C1427C1C2649AE6F00C49C8D /* LaunchScreen.storyboard */,
@@ -91,6 +104,27 @@
 				C15664E52650F0EE005BAC93 /* ListViewController.swift */,
 			);
 			path = Controllers;
+			sourceTree = "<group>";
+		};
+		C191F619265A286600835D15 /* FactoryPattern */ = {
+			isa = PBXGroup;
+			children = (
+				C191F625265A317900835D15 /* FactoryViewController.swift */,
+				C191F61A265A288300835D15 /* Workout.swift */,
+				C191F622265A2B7900835D15 /* Exercises */,
+				C191F623265A2BD200835D15 /* ExercisesFactory.swift */,
+			);
+			path = FactoryPattern;
+			sourceTree = "<group>";
+		};
+		C191F622265A2B7900835D15 /* Exercises */ = {
+			isa = PBXGroup;
+			children = (
+				C191F61C265A29F300835D15 /* Lunges.swift */,
+				C191F61E265A2AA500835D15 /* Pushups.swift */,
+				C191F620265A2B2600835D15 /* AbsCrunches.swift */,
+			);
+			path = Exercises;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,15 +197,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C191F61F265A2AA500835D15 /* Pushups.swift in Sources */,
+				C191F61D265A29F300835D15 /* Lunges.swift in Sources */,
 				C1A97824264B23D000DE3A7A /* FourthViewController.swift in Sources */,
 				C1A97820264AD59600DE3A7A /* SecondViewController.swift in Sources */,
+				C191F621265A2B2600835D15 /* AbsCrunches.swift in Sources */,
 				C1427C162649AE6C00C49C8D /* ViewController.swift in Sources */,
+				C191F624265A2BD200835D15 /* ExercisesFactory.swift in Sources */,
 				C15664E42650EC28005BAC93 /* SixthViewController.swift in Sources */,
 				C1A97822264AD95800DE3A7A /* ThirdViewController.swift in Sources */,
+				C191F61B265A288300835D15 /* Workout.swift in Sources */,
 				C15664E62650F0EE005BAC93 /* ListViewController.swift in Sources */,
 				C1427C122649AE6C00C49C8D /* AppDelegate.swift in Sources */,
 				C1427C142649AE6C00C49C8D /* SceneDelegate.swift in Sources */,
 				C15664E1264D83A0005BAC93 /* FifthViewController.swift in Sources */,
+				C191F626265A317900835D15 /* FactoryViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
