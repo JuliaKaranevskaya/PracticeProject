@@ -25,7 +25,7 @@
 		C1A97820264AD59600DE3A7A /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A9781F264AD59600DE3A7A /* SecondViewController.swift */; };
 		C1A97822264AD95800DE3A7A /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A97821264AD95800DE3A7A /* ThirdViewController.swift */; };
 		C1A97824264B23D000DE3A7A /* FourthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A97823264B23D000DE3A7A /* FourthViewController.swift */; };
-		C1C94417265FC3A7002D7B31 /* StackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C94416265FC3A7002D7B31 /* StackViewController.swift */; };
+		C1C94419265FDAD2002D7B31 /* StackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C94418265FDAD2002D7B31 /* StackViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,7 +49,7 @@
 		C1A9781F264AD59600DE3A7A /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		C1A97821264AD95800DE3A7A /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 		C1A97823264B23D000DE3A7A /* FourthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthViewController.swift; sourceTree = "<group>"; };
-		C1C94416265FC3A7002D7B31 /* StackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackViewController.swift; sourceTree = "<group>"; };
+		C1C94418265FDAD2002D7B31 /* StackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,7 +104,7 @@
 				C15664E0264D83A0005BAC93 /* FifthViewController.swift */,
 				C15664E32650EC28005BAC93 /* SixthViewController.swift */,
 				C15664E52650F0EE005BAC93 /* ListViewController.swift */,
-				C1C94416265FC3A7002D7B31 /* StackViewController.swift */,
+				C1C94418265FDAD2002D7B31 /* StackViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -209,7 +209,7 @@
 				C191F624265A2BD200835D15 /* ExercisesFactory.swift in Sources */,
 				C15664E42650EC28005BAC93 /* SixthViewController.swift in Sources */,
 				C1A97822264AD95800DE3A7A /* ThirdViewController.swift in Sources */,
-				C1C94417265FC3A7002D7B31 /* StackViewController.swift in Sources */,
+				C1C94419265FDAD2002D7B31 /* StackViewController.swift in Sources */,
 				C191F61B265A288300835D15 /* Workout.swift in Sources */,
 				C15664E62650F0EE005BAC93 /* ListViewController.swift in Sources */,
 				C1427C122649AE6C00C49C8D /* AppDelegate.swift in Sources */,
