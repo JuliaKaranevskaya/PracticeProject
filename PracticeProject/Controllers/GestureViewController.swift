@@ -18,12 +18,19 @@ class GestureViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        view.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(imageAppear)))
+        view.addGestureRecognizer(UILongPressGestureRecognizer(target: self, action: #selector(imageAppear)))
     }
     
-    @objc func imageAppear() {
-        setupPinkView()
-        print("Tapped")
+    @objc func imageAppear(gesture: UILongPressGestureRecognizer) {
+        if gesture.state == .began {
+            setupPinkView()
+            print("Tapped")
+        }
+        
+        if gesture.state == .ended {
+            pinkView.removeFromSuperview()
+        }
+        
     }
     
     func setupPinkView() {
