@@ -17,6 +17,7 @@
 		C15664E42650EC28005BAC93 /* SixthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15664E32650EC28005BAC93 /* SixthViewController.swift */; };
 		C15664E62650F0EE005BAC93 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15664E52650F0EE005BAC93 /* ListViewController.swift */; };
 		C16630F526827F68006AEC9A /* AnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16630F426827F68006AEC9A /* AnimationViewController.swift */; };
+		C16630F72683A1BE006AEC9A /* GestureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16630F62683A1BE006AEC9A /* GestureViewController.swift */; };
 		C191F61B265A288300835D15 /* Workout.swift in Sources */ = {isa = PBXBuildFile; fileRef = C191F61A265A288300835D15 /* Workout.swift */; };
 		C191F61D265A29F300835D15 /* Lunges.swift in Sources */ = {isa = PBXBuildFile; fileRef = C191F61C265A29F300835D15 /* Lunges.swift */; };
 		C191F61F265A2AA500835D15 /* Pushups.swift in Sources */ = {isa = PBXBuildFile; fileRef = C191F61E265A2AA500835D15 /* Pushups.swift */; };
@@ -43,6 +44,7 @@
 		C15664E32650EC28005BAC93 /* SixthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SixthViewController.swift; sourceTree = "<group>"; };
 		C15664E52650F0EE005BAC93 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
 		C16630F426827F68006AEC9A /* AnimationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationViewController.swift; sourceTree = "<group>"; };
+		C16630F62683A1BE006AEC9A /* GestureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestureViewController.swift; sourceTree = "<group>"; };
 		C191F61A265A288300835D15 /* Workout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Workout.swift; sourceTree = "<group>"; };
 		C191F61C265A29F300835D15 /* Lunges.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lunges.swift; sourceTree = "<group>"; };
 		C191F61E265A2AA500835D15 /* Pushups.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pushups.swift; sourceTree = "<group>"; };
@@ -111,6 +113,7 @@
 				C1C94418265FDAD2002D7B31 /* StackViewController.swift */,
 				C1C9448E2664E454002D7B31 /* HeaderFooterViewController.swift */,
 				C16630F426827F68006AEC9A /* AnimationViewController.swift */,
+				C16630F62683A1BE006AEC9A /* GestureViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -213,6 +216,7 @@
 				C1A97820264AD59600DE3A7A /* SecondViewController.swift in Sources */,
 				C191F621265A2B2600835D15 /* AbsCrunches.swift in Sources */,
 				C1427C162649AE6C00C49C8D /* ViewController.swift in Sources */,
+				C16630F72683A1BE006AEC9A /* GestureViewController.swift in Sources */,
 				C191F624265A2BD200835D15 /* ExercisesFactory.swift in Sources */,
 				C15664E42650EC28005BAC93 /* SixthViewController.swift in Sources */,
 				C1A97822264AD95800DE3A7A /* ThirdViewController.swift in Sources */,
