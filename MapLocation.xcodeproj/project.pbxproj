@@ -13,6 +13,7 @@
 		C15F94AD26A73E09008E6627 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C15F94AB26A73E09008E6627 /* Main.storyboard */; };
 		C15F94AF26A73E0D008E6627 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C15F94AE26A73E0D008E6627 /* Assets.xcassets */; };
 		C15F94B226A73E0D008E6627 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C15F94B026A73E0D008E6627 /* LaunchScreen.storyboard */; };
+		C15F94BA26A73F78008E6627 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15F94B926A73F78008E6627 /* LocationManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		C15F94AE26A73E0D008E6627 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C15F94B126A73E0D008E6627 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C15F94B326A73E0D008E6627 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C15F94B926A73F78008E6627 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				C15F94A526A73E09008E6627 /* AppDelegate.swift */,
 				C15F94A726A73E09008E6627 /* SceneDelegate.swift */,
 				C15F94A926A73E09008E6627 /* ViewController.swift */,
+				C15F94B926A73F78008E6627 /* LocationManager.swift */,
 				C15F94AB26A73E09008E6627 /* Main.storyboard */,
 				C15F94AE26A73E0D008E6627 /* Assets.xcassets */,
 				C15F94B026A73E0D008E6627 /* LaunchScreen.storyboard */,
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C15F94BA26A73F78008E6627 /* LocationManager.swift in Sources */,
 				C15F94AA26A73E09008E6627 /* ViewController.swift in Sources */,
 				C15F94A626A73E09008E6627 /* AppDelegate.swift in Sources */,
 				C15F94A826A73E09008E6627 /* SceneDelegate.swift in Sources */,
